@@ -1,0 +1,43 @@
+<div class="container-fluid ">
+    <div class="row">
+    <!-- <div class="card m-4"> -->
+        <div class="mt-2">
+            <h1 class="text-center text-header"> Contact Here</h1>
+        </div>
+        <div class="card-content my-3 d-flex flex-row justify-content-center">
+            <form style="width: 26rem;">
+                <!-- Name input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form4Example1">Name</label>
+                    <input type="text" id="form4Example1" class="form-control" />
+                </div>
+
+                <!-- Email input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form4Example2">Email address</label>
+                    <input type="email" id="form4Example2" class="form-control" />
+                </div>
+
+                <!-- Message input -->
+                <div data-mdb-input-init class="form-outline mb-4">
+                    <label class="form-label" for="form4Example3">Message</label>
+                    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                    <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                    <label class="form-check-label" for="form4Example4">
+                        Send me a copy of this message
+                    </label>
+                </div>
+
+                <!-- Submit button -->
+                <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- </div> -->
+
+<router-outlet></router-outlet>
