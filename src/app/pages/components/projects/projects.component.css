@@ -1,0 +1,21 @@
+.card{
+    border: none;
+}
+
+.header-title{
+    color: #d5c455;
+}
+
+.icon-circle {
+    border: 2px solid;
+    border-radius: 50%;
+    /* padding: 5px; */
+    height: 70px;
+    width: 70px;
+    padding-left: 20px ;
+    padding-top: 10px;
+    background-color: #d5c455;
+}
+p{
+    color: rgb(153,153,153);
+}

@@ -2,5 +2,12 @@
     background-image: url(src/assets/dashboardimg1.jpg);
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 350px;
+}
+
+.info{
+    color: rgb(153,153,153);
+}
+.header-title{
+    color: #d5c455;
 }

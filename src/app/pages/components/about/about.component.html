@@ -1,10 +1,10 @@
 <div class="container-fluid">
-<div class="container">
+<div class="container p-4" style="background-color: white;">
     <div class="row">
-        <div class="d-flex flex-row justify-content-center my-2">
-            <h1 >About Me</h1>
-        </div>
-        <div class="col-5">
+        <!-- <div class="my-2">
+            <h1 class="text-center header-title">About Me</h1>
+        </div> -->
+        <div class="col-4">
             <div class="about-me">     
             </div>
             <div class="">
@@ -12,26 +12,26 @@
             </div>
         </div>
         <div class="col-7">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            <p class="info">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 ibhgfrffvbhubnnjnkmndustry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap.
             </p>
 
             <div class="my-4" *ngFor="let items of details">
-                <h3>PERSONAL DETAILS :</h3>
-                <p><strong>Full Name: </strong> {{items.name}}</p>
-                <p><strong>Email: </strong> abcd1234@gmail.com</p>
-                <p><strong>Phone: </strong> 9876543210</p>
-                <p><strong>Dob: </strong> 15 April 2000</p>
-                <p><strong>Address: </strong> Hyderabad</p>
+                <h3 class="header-title">PERSONAL DETAILS :</h3>
+                <p>Full Name: <span class="info">{{items.name}}</span></p>
+                <p>Email:  <span class="info">abcd1234@gmail.com</span></p>
+                <p>Phone: <span class="info"> 9876543210</span></p>
+                <p>Dob:  <span class="info">15 April 2000</span></p>
+                <p>Address: <span class="info"> Hyderabad</span></p>
 
             </div>
         </div>
     </div>
 </div>
 <div class="container my-5">
-    <div class="d-flex flex-row justify-content-center">
-        <h1>Skills</h1>
+    <div class="">
+        <h1 class="text-center"> Skills</h1>
     </div>
     <div class="card" style="border: none;">
         <div class="row mx-3">
